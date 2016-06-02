@@ -25,7 +25,7 @@ public class DisplayObject : MonoBehaviour {
         Vector3 difference = location - cameraPosition;
         float distance = difference.magnitude;
         // If distance is smaller than threshold, return True
-        if (distance < 4.0)
+        if (distance < 2.0)
         {
             rend.enabled = true;
         }
